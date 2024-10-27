@@ -18,9 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-The website is still under development. succesfully test.
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an incoming first-year PhD student in [Information & Decision Sciences Department](https://carlsonschool.umn.edu/departments/information-decision-sciences) at the [University of Minnesota](https://twin-cities.umn.edu/). I am fortune to be advised by [Dr. Ravi Bapna](https://carlsonschool.umn.edu/faculty/ravi-bapna). Prior to joing UMN, I spent two years as a Pre-Doc at the [Indian School of Business](https://www.isb.edu/en.html)
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+At ISB, I worked with [Dr. Sumeet Kumar](https://www.isb.edu/en/research-thought-leadership/faculty/faculty-directory/sumeet-kumar.html) on Extensive analysis of social influence patterns and their evolution over time using deep learning. I also worked with [Dr Rakesh Mallipeddi](https://fisher.osu.edu/people/mallipeddi.1) at the intersection of Product Management and Data Science and [Dr. Ravi Bapna](https://carlsonschool.umn.edu/faculty/ravi-bapna) on Market reactions to AI algorithm-related events. During my undergraduate studies, I worked with Achamma Thomas on my Bachelor Thesis on Multimodal Machine Learning for content tone.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My current research focuses adverse events on Tesla's self-driving car crashes and their impact on consumers. I am working on developing Deep learning approaches to help product managers make better decisions using data.
+
+[Email](adityabobde19@gmail.com), [LinkedIn](https://www.linkedin.com/in/aditya-bobde/), [Google Scholar](https://scholar.google.co.in/citations?hl=en&user=WhpHx6oAAAAJ)
