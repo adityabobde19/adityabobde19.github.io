@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented research paper at [2023 International Conference on Intelligent and Innovative Technologies in Computing, Electrical and Electronics](https://ieeexplore.ieee.org/xpl/conhome/10090461/proceeding)🎊
+Presented Countering Dis-information by Multimodal Entailment via Joint Embedding at [2023 International Conference on Intelligent and Innovative Technologies in Computing, Electrical and Electronics](https://ieeexplore.ieee.org/xpl/conhome/10090461/proceeding)🎊
