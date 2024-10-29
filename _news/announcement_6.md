@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented Robust Time Series Forecasting via Time Differencing and Stacking at [2022 International Conference on Smart Generation Computing, Communication and Networking ](https://ieeexplore.ieee.org/document/10083651)🥳
+Presented "Robust Time Series Forecasting via Time Differencing and Stacking" at [2022 International Conference on Smart Generation Computing, Communication and Networking ](https://ieeexplore.ieee.org/document/10083651)🥳
