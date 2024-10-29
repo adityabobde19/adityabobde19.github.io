@@ -2,18 +2,16 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Aditya Bobde
     - name: Languages
-      value: English, German
+      value: English, Hindi
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Minnesota
+      year: 2029
       description:
         - Description 1.
         - Description 2.
@@ -23,7 +21,7 @@
             - Sub-description 2.
     - title: Federal teaching diploma
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+      year: 2024
       description:
         - Description 1.
         - Description 2.
@@ -31,35 +29,29 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant 
+      institution: Carlson School of Management, University of Minnesota
+      #year: 1933 - 1955
       description:
-        - Description 1.
+        - Working on a research project examining market reactions to AI algorithm-related adverse events, with a focus on Tesla's self-driving car crashes and their impact on consumers
         - Description 2.
         - title: Description 3.
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+    - title: Pre-Doc
+      institution: Indian School of Business, Hyderabad
+      year: 2023-2024
       description:
-        - Description 1.
+        - Developed a novel architecture combining a vision transformer and an autoencoder, specifically designed for clustering similar memes, enhancing content categorization and retrieval accuracy
         - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Research Intern
+      institution: Indian School of Business, Hyderabad
+      year: 2022 - 2023
+      description: 
+          - Spearheaded a large-scale data processing project, efficiently fetching and processing over 1 million images, and successfully implemented advanced topic modelling techniques
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
 - title: Open Source Projects
   type: time_table
@@ -71,13 +63,15 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Recipient of IEEE Richard E. Merwin Student Award
+    - year: 2022
       items:
-        - Max Planck Medal
+        - Smart India Hackathon Winner
+    - year: 2021
+      items:
+        - Accenture Applied Intelligence Hackathon Winner
 
 - title: Academic Interests
   type: nested_list
