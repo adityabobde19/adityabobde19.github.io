@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Minneapolis, MN
+subtitle: <a href='#'>Minneapolis, MN
 
 profile:
   align: right
