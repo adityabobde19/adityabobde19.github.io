@@ -1,6 +1,6 @@
-image.png{% if site.footer_fixed %}
-  <footer class="fixed-bottom footer-dark" role="contentinfo">
-    <div class="container mt-0">
+{% if site.footer_fixed %}
+  <footer class="fixed-bottom" role="contentinfo" style="background-color: var(--global-footer-bg-color) !important; color: var(--global-footer-text-color) !important;">
+    <div class="container mt-0" style="color: var(--global-footer-text-color) !important;">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
@@ -11,11 +11,11 @@ image.png{% if site.footer_fixed %}
     </div>
   </footer>
 {% else %}
-  <footer class="sticky-bottom mt-5 footer-dark" role="contentinfo">
+  <footer class="sticky-bottom mt-5" role="contentinfo" style="background-color: var(--global-footer-bg-color) !important; color: var(--global-footer-text-color) !important;">
     {% if site.newsletter.enabled %}
       {% include scripts/newsletter.liquid %}
     {% endif %}
-    <div class="container mt-0">
+    <div class="container mt-0" style="color: var(--global-footer-text-color) !important;">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
