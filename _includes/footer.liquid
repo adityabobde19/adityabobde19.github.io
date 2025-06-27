@@ -1,6 +1,6 @@
 {% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo" style="background-color: var(--global-footer-bg-color) !important; color: var(--global-footer-text-color) !important;">
-    <div class="container mt-0" style="color: var(--global-footer-text-color) !important;">
+  <footer class="fixed-bottom" role="contentinfo" id="main-footer">
+    <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
@@ -11,11 +11,11 @@
     </div>
   </footer>
 {% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo" style="background-color: var(--global-footer-bg-color) !important; color: var(--global-footer-text-color) !important;">
+  <footer class="sticky-bottom mt-5" role="contentinfo" id="main-footer">
     {% if site.newsletter.enabled %}
       {% include scripts/newsletter.liquid %}
     {% endif %}
-    <div class="container mt-0" style="color: var(--global-footer-text-color) !important;">
+    <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
@@ -26,3 +26,28 @@
     </div>
   </footer>
 {% endif %}
+
+<script>
+function updateFooterTheme() {
+  const footer = document.getElementById('main-footer');
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  
+  if (isDark) {
+    footer.style.backgroundColor = '#999999';
+    footer.style.color = '#343a40';
+  } else {
+    footer.style.backgroundColor = '#343a40';
+    footer.style.color = '#999999';
+  }
+}
+
+// Update on page load
+document.addEventListener('DOMContentLoaded', updateFooterTheme);
+
+// Update when theme changes
+const observer = new MutationObserver(updateFooterTheme);
+observer.observe(document.documentElement, {
+  attributes: true,
+  attributeFilter: ['data-theme']
+});
+</script>
