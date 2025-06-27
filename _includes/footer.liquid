@@ -1,5 +1,5 @@
-{% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo" style="background-color: var(--global-footer-bg-color); color: var(--global-footer-text-color);">
+image.png{% if site.footer_fixed %}
+  <footer class="fixed-bottom footer-dark" role="contentinfo">
     <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
@@ -11,7 +11,7 @@
     </div>
   </footer>
 {% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo" style="background-color: var(--global-footer-bg-color); color: var(--global-footer-text-color);">
+  <footer class="sticky-bottom mt-5 footer-dark" role="contentinfo">
     {% if site.newsletter.enabled %}
       {% include scripts/newsletter.liquid %}
     {% endif %}
