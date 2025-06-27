@@ -21,6 +21,12 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'jekyll'
+    gem 'jekyll-scholar'
+    gem 'observer'
+    gem 'csv'
+    gem 'base64'
+    gem 'bigdecimal'
 end
 group :other_plugins do
     gem 'css_parser'
