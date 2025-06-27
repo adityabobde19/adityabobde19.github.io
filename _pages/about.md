@@ -15,7 +15,7 @@ profile:
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 I am a first-year PhD student in [Carlson School of Management](https://carlsonschool.umn.edu/) at the [University of Minnesota](https://twin-cities.umn.edu/). I am fortunate to be advised by [Dr. Ravi Bapna](https://carlsonschool.umn.edu/faculty/ravi-bapna). Prior to joing UMN, I spent two years as a Pre-Doc at the [Indian School of Business](https://www.isb.edu/en.html)
