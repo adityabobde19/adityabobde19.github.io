@@ -3,37 +3,8 @@ source 'https://rubygems.org'
 # GitHub Pages gem
 gem "github-pages", group: :jekyll_plugins
 
-group :jekyll_plugins do
-    gem 'wdm', '>= 0.1.0'
-    gem 'classifier-reborn'
-    gem 'jekyll'
-    gem 'jekyll-archives'
-    gem 'jekyll-email-protect'
-    gem 'jekyll-feed'
-    gem 'jekyll-get-json'
-    gem 'jekyll-imagemagick'
-    gem 'jekyll-jupyter-notebook'
-    gem 'jekyll-link-attributes'
-    gem 'jekyll-minifier'
-    gem 'jekyll-paginate-v2'
-    gem 'jekyll-regex-replace'
-    gem 'jekyll-scholar'
-    gem 'jekyll-sitemap'
-    gem 'jekyll-tabs'
-    gem 'jekyll-toc'
-    gem 'jekyll-twitter-plugin'
-    gem 'jemoji'
-    gem 'unicode_utils'
-    gem 'webrick'
-    gem 'jekyll'
-    gem 'jekyll-scholar'
-    gem 'observer'
-    gem 'csv'
-    gem 'base64'
-    gem 'bigdecimal'
-end
-group :other_plugins do
-    gem 'css_parser'
-    gem 'feedjira'
-    gem 'httparty'
-end
+# Platform-specific gems
+gem "wdm", "~> 0.1.0", :platforms => [:mingw, :x64_mingw, :mswin]
+
+# Additional gems compatible with GitHub Pages
+gem "webrick", "~> 1.7"
