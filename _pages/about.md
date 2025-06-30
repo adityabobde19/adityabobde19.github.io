@@ -23,5 +23,5 @@ I am a first-year PhD student in [Carlson School of Management](https://carlsons
 At ISB, I worked with [Dr. Sumeet Kumar](https://www.isb.edu/en/faculty/sumeet-kumar.html) and [Dr Rakesh Mallipeddi](https://www.isb.edu/en/faculty/rakesh-mallipeddi.html) on Extensive analysis of social influence patterns and their evolution over time using deep learning. I also worked with [Dr. Ravi Bapna](https://carlsonschool.umn.edu/faculty/ravi-bapna) on Market reactions to AI algorithm-related events. During my undergraduate studies, I worked with Achamma Thomas on my Bachelor Thesis on Multimodal Machine Learning for content tone.
 
 <div style="text-align: center; margin-top: 20px;">
-<a href="mailto:bobde007@umn.edu">Email</a>, <a href="https://www.linkedin.com/in/aditya-bobde-7b9b7b1b1/">LinkedIn</a>, <a href="https://scholar.google.com/citations?user=your-id">Google Scholar</a>
+<a href="mailto:bobde007@umn.edu">Email</a> / <a href="https://www.linkedin.com/in/aditya-bobde-7b9b7b1b1/">LinkedIn</a> / <a href="https://scholar.google.com/citations?user=your-id">Google Scholar</a> / <a href="{{ '/assets/pdf/CV.pdf' | relative_url }}" target="_blank">CV</a>
 </div>

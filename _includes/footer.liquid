@@ -11,11 +11,11 @@
     </div>
   </footer>
 {% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo" style="position: sticky; bottom: 0; margin-top: auto;">
+  <footer class="sticky-bottom mt-5" role="contentinfo" style="margin-top: auto !important;">
     {% if site.newsletter.enabled %}
       {% include scripts/newsletter.liquid %}
     {% endif %}
-    <div class="container" style="text-align: center; padding: 20px 0;">
+    <div class="container">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
@@ -25,4 +25,16 @@
       {% endif %}
     </div>
   </footer>
+  
+  <style>
+  body.sticky-bottom-footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .container[role="main"] {
+    flex: 1;
+  }
+  </style>
 {% endif %}
