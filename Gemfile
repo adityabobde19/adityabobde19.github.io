@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # GitHub Pages gem
-gem "github-pages", group: :jekyll_plugins
+gem "github-pages", "~> 228", group: :jekyll_plugins
 
 # Platform-specific gems
 gem "wdm", "~> 0.1.0", :platforms => [:mingw, :x64_mingw, :mswin]
