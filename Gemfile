@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
+
+# GitHub Pages gem
+gem "github-pages", group: :jekyll_plugins
+
 group :jekyll_plugins do
     gem 'wdm', '>= 0.1.0'
     gem 'classifier-reborn'
