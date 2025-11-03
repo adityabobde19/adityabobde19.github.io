@@ -24,3 +24,6 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+
+# Fix sass-embedded compatibility issue
+gem 'sass-embedded', '~> 1.79.4'
