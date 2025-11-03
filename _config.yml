@@ -10,6 +10,9 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
+# Max content width
+max_width: 800px
+
 # Plugins
 plugins:
   - jekyll-feed
