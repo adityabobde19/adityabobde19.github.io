@@ -34,4 +34,7 @@ exclude:
   - vendor
   - .sass-cache
   - .jekyll-cache
-  - README.md
+
+# Third party libraries
+third_party_libraries:
+  download: false
