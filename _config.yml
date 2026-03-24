@@ -1,6 +1,6 @@
 # Site settings
 title: Aditya Bobde
-email: you@example.com
+email: bobde005@umn.edu
 description: Personal academic website
 baseurl: ""
 url: "https://adityabobde19.github.io"
@@ -31,7 +31,7 @@ collections:
 # Navigation
 header_pages:
   - about.md
-  - research.md
+  - teaching.md
 
 # Exclude files
 exclude:
@@ -45,3 +45,6 @@ exclude:
 # Third party libraries
 third_party_libraries:
   download: false
+
+# Required by hide-custom-bibtex plugin
+filtered_bibtex_keywords: []

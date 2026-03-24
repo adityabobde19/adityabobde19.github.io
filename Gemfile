@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-archives'
-    gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-get-json'
@@ -25,5 +24,3 @@ group :other_plugins do
     gem 'httparty'
 end
 
-# Fix sass-embedded compatibility issue
-gem 'sass-embedded', '~> 1.79.4'
