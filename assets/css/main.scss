@@ -27,37 +27,30 @@ $max-content-width: {{ site.max_width }};
 
 // Custom styles
 
-// Profile layout
-.profile-container {
-  margin: 2em 0;
+// Profile photo (floated right, text wraps around it)
+.profile-float-img {
+  float: right;
+  max-width: 200px;
+  margin: 0 0 1.5em 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-.profile-content {
-  display: flex;
-  gap: 2em;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
-.profile-text {
-  flex: 1;
-  min-width: 300px;
-}
-
-.profile-image {
-  flex-shrink: 0;
-  img {
-    max-width: 200px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  }
+// Contact links
+.contact-links a {
+  text-decoration: none;
+  i { margin-right: 0.3em; }
 }
 
 // Scrollable news section
 .news-scroll {
   max-height: 300px;
   overflow-y: auto;
+  padding-left: 1.2em;
   padding-right: 1em;
+  list-style: disc;
+
+  li { margin-bottom: 0.4em; }
 
   &::-webkit-scrollbar {
     width: 6px;
