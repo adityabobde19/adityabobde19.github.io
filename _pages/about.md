@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-<div class="clearfix">
+<div class="clearfix" markdown="1">
 <img src="{{ site.profile_pic | relative_url }}" alt="{{ site.profile_pic_alt }}" class="profile-float-img" />
 
 ## About Me
