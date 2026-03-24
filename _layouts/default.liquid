@@ -48,6 +48,42 @@
       h1, h2, h3 {
         color: #222;
       }
+      /* Profile photo */
+      .profile-float-img {
+        float: right;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 0 0 1.5em 2em;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      }
+      /* Contact links */
+      .contact-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em 1.2em;
+        list-style: none;
+        padding: 0;
+      }
+      .contact-links a {
+        text-decoration: none;
+        color: #0066cc;
+        display: flex;
+        align-items: center;
+        gap: 0.3em;
+      }
+      .contact-links a:hover { text-decoration: underline; }
+      /* Scrollable news list */
+      .news-scroll {
+        max-height: 280px;
+        overflow-y: auto;
+        padding-left: 1.2em;
+        margin: 0;
+      }
+      .news-scroll li { margin-bottom: 0.5em; }
+      /* Clear float after bio */
+      .clearfix::after { content: ""; display: table; clear: both; }
     </style>
   </head>
 
