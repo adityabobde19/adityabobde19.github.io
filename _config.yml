@@ -1,9 +1,10 @@
 # Site settings
 title: Aditya Bobde
-email: you@example.com
+email: bobde005@umn.edu
 description: Personal academic website
 baseurl: ""
 url: "https://adityabobde19.github.io"
+max_width: 800px
 
 # Build settings
 markdown: kramdown
@@ -24,7 +25,13 @@ collections:
 # Navigation
 header_pages:
   - about.md
-  - research.md
+  - teaching.md
+
+# Required by plugins
+third_party_libraries:
+  download: false
+
+filtered_bibtex_keywords: []
 
 # Exclude files
 exclude:
