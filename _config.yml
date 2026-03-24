@@ -5,6 +5,17 @@ description: Personal academic website
 baseurl: ""
 url: "https://adityabobde19.github.io"
 
+# Profile settings
+profile_pic: /assets/img/prof_pic.JPG
+profile_pic_alt: Aditya Bobde
+
+# Social media
+social:
+  email: bobde005@umn.edu
+  linkedin: https://www.linkedin.com/in/aditya-bobde/
+  google_scholar: https://scholar.google.com/citations?user=qc6CJjYAAAAJ
+  github: https://github.com/adityabobde19
+
 # Build settings
 markdown: kramdown
 highlighter: rouge

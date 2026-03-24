@@ -24,3 +24,56 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// Custom styles
+
+// Profile layout
+.profile-container {
+  margin: 2em 0;
+}
+
+.profile-content {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.profile-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.profile-image {
+  flex-shrink: 0;
+  img {
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+}
+
+// Scrollable news section
+.news-scroll {
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 1em;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.05);
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.2);
+    border-radius: 4px;
+
+    &:hover {
+      background: rgba(0,0,0,0.4);
+    }
+  }
+}
