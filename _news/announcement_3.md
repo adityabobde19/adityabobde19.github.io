@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined UMN for PhD in Business Management:sparkles: :smile:
+Joined UMN for PhD in Business Management ✨😄

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started working at the [Indain School of Business as a Research Intern](https://www.isb.edu/en.html)😊
+Started working at the [Indian School of Business as a Research Intern](https://www.isb.edu/en.html)😊
